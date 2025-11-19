@@ -78,3 +78,4 @@ export function getPostBySlug(slug: string): Post | undefined {
 // update this after deploy
 export const SITE_BASE_URL = "https://wealthmaze.vercel.app";
 
+
