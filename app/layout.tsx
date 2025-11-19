@@ -18,7 +18,18 @@ export default function RootLayout({
   return (
     <html lang="en" className="scroll-smooth">
       <head>
-      <meta name="google-site-verification" content="0kNEQ3B5yVJiyPVlYEvVmge-m-wt6P76nh3yFhmu_64" />
+        {/* Google Search Console verification (keep this) */}
+        <meta
+          name="google-site-verification"
+          content="0kNEQ3B5yVJiyPVlYEvVmge-m-wt6P76nh3yFhmu_64"
+        />
+
+        {/* Google AdSense global script */}
+        <script
+          async
+          src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-7662746918059885"
+          crossOrigin="anonymous"
+        ></script>
       </head>
       <body className="bg-slate-950 text-slate-50 antialiased bg-soft-radial">
         <div className="min-h-screen flex flex-col">
