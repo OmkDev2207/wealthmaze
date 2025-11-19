@@ -17,6 +17,9 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className="scroll-smooth">
+      <head>
+      <meta name="google-site-verification" content="0kNEQ3B5yVJiyPVlYEvVmge-m-wt6P76nh3yFhmu_64" />
+      </head>
       <body className="bg-slate-950 text-slate-50 antialiased bg-soft-radial">
         <div className="min-h-screen flex flex-col">
           <SiteHeader />
